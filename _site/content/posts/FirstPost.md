@@ -1,5 +1,5 @@
 +++
-date = "2020-04-02"
+date = "2020-10-07"
 title = "First Post"
 slug = "First Post"
 tags = [
@@ -18,5 +18,6 @@ Good Morning Friends, this is my first ever ever Blog and I hope it blows you aw
 Let's start by printing the ever auspicious "Hello World"
 
 ``` Python
-print("Hello World")
+def hello(name):
+    print("Hello World %s", %name)
 ```

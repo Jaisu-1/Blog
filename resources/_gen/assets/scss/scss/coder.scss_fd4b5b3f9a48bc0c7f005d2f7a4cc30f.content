@@ -11,7 +11,7 @@ body {
   color: #212121;
   background-color: #FAFAFA;
   font-family: Merriweather, Georgia, serif;
-  font-size: 1.7em;
+  font-size: 1.5em;
   font-weight: 300;
   line-height: 1.8em; }
   @media only screen and (max-width: 768px) {
@@ -93,7 +93,7 @@ b, strong {
 pre {
   display: block;
   font-family: "Source Code Pro", "Lucida Console", monospace;
-  font-size: 1.6rem;
+  font-size: 1.8em;
   font-weight: 400;
   line-height: 2.6rem;
   overflow-x: auto;
@@ -105,8 +105,8 @@ pre {
 
 code {
   font-family: Monaco, "Source Code Pro", "Lucida Console", monospace;
-  font-size: 1.6rem;
-  font-weight: 800;
+  font-size: 1.4rem;
+  font-weight: 400;
   background-color: #E0E0E0;
   color: #212121; }
 
@@ -229,9 +229,9 @@ img.emoji {
     margin: 0; }
 
 .avatar img {
-  width: 20rem;
+  width: 25rem;
   height: auto;
-  border-radius: 50%; }
+  border-radius: 100%; }
   @media only screen and (max-width: 768px) {
     .avatar img {
       width: 10rem; } }

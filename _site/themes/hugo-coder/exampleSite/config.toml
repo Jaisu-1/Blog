@@ -1,5 +1,5 @@
 baseurl = "http://www.example.com"
-title = "Jaisu's Log Book"
+title = "johndoe"
 
 theme = "hugo-coder"
 
@@ -8,21 +8,20 @@ defaultcontentlanguage = "en"
 
 paginate = 20
 
-# Code Syntax Highlighting
-pygmentsCodeFences=true
-PygmentsStyle = "github"
-# pygmentscodefencesguesssyntax = true
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
 disqusShortname = "yourdiscussshortname"
 
 [params]
-    author = "Jaisurya Nanduri"
-    description = "Jaisurya Nanduri's personal website"
+    author = "John Doe"
+    description = "John Doe's personal website"
     keywords = "blog,developer,personal"
-    info = "Full Stack and Deep Learning"
+    info = "Full Stack DevOps and Magician"
     avatarurl = "images/avatar.jpg"
     #gravatar = "john.doe@example.com"
-    footercontent = ""
+    footercontent = "Enter a text here."
 
     dateformat = "January 2, 2006"
 
@@ -47,7 +46,7 @@ disqusShortname = "yourdiscussshortname"
     hidecolorschemetoggle = false
 
     # Series see also post count
-    maxSeeAlsoItems = 6
+    maxSeeAlsoItems = 5
 
     # Enable Twemoji
     enableTwemoji = true
@@ -63,7 +62,7 @@ disqusShortname = "yourdiscussshortname"
     siteID = "ABCDE"
     # Default value is cdn.usefathom.com, overwrite this if you are self-hosting
     serverURL = "analytics.example.com"
-
+    
 # If you want to use plausible(https://plausible.io) for analytics, add this section
 [params.plausibleAnalytics]
     domain = "example.com"
@@ -79,22 +78,34 @@ disqusShortname = "yourdiscussshortname"
     name = "Github"
     icon = "fa fa-github"
     weight = 1
-    url = "https://github.com/jaisu-1/"
+    url = "https://github.com/johndoe/"
+[[params.social]]
+    name = "Gitlab"
+    icon = "fa fa-gitlab"
+    weight = 2
+    url = "https://gitlab.com/johndoe/"
 [[params.social]]
     name = "Twitter"
     icon = "fa fa-twitter"
     weight = 3
-    url = "https://twitter.com/Jaisu_1/"
+    url = "https://twitter.com/johndoe/"
 [[params.social]]
     name = "LinkedIn"
     icon = "fa fa-linkedin"
     weight = 4
-    url = "https://www.linkedin.com/in/jaisuryananduri/"
-# [[params.social]]
-#     name = "Medium"
-#     icon = "fa fa-medium"
-#     weight = 5
-#     url = "https://medium.com/@johndoe"
+    url = "https://www.linkedin.com/in/johndoe/"
+[[params.social]]
+    name = "Medium"
+    icon = "fa fa-medium"
+    weight = 5
+    url = "https://medium.com/@johndoe"
+[[params.social]]
+    name = "RSS"
+    icon = "fa fa-rss"
+    weight = 6
+    url = "https://myhugosite.com/index.xml"
+    rel = "alternate"
+    type = "application/rss+xml"
 
 
 [languages]
@@ -118,42 +129,41 @@ disqusShortname = "yourdiscussshortname"
             weight = 3
             url = "projects/"
 
-
             [[languages.en.menu.main]]
             name = "Contact me"
-            weight = 4
+            weight = 5
             url = "contact/"
 
-    #
-    # [languages.pt-br]
-    #     languagename = "Português"
-    #     title = "João Ninguém"
-    #
-    #     [languages.pt-br.params]
-    #         author = "João Ninguém"
-    #         info = "Full Stack DevOps e Mágico"
-    #         description = "Sítio pessoal de João Ninguém"
-    #         keywords = "blog,desenvolvedor,pessoal"
-    #         footercontent = "Coloque algum texto aqui."
-    #
-    #     [languages.pt-br.menu]
-    #
-    #         [[languages.pt-br.menu.main]]
-    #         name = "Sobre"
-    #         weight = 1
-    #         url = "about/"
-    #
-    #         [[languages.pt-br.menu.main]]
-    #         name = "Blog"
-    #         weight = 2
-    #         url = "posts/"
-    #
-    #         [[languages.pt-br.menu.main]]
-    #         name = "Projetos"
-    #         weight = 3
-    #         url = "projects/"
-    #
-    #         [[languages.pt-br.menu.main]]
-    #         name = "Contato"
-    #         weight = 5
-    #         url = "contact/"
+
+    [languages.pt-br]
+        languagename = "Português"
+        title = "João Ninguém"
+
+        [languages.pt-br.params]
+            author = "João Ninguém"
+            info = "Full Stack DevOps e Mágico"
+            description = "Sítio pessoal de João Ninguém"
+            keywords = "blog,desenvolvedor,pessoal"
+            footercontent = "Coloque algum texto aqui."
+
+        [languages.pt-br.menu]
+
+            [[languages.pt-br.menu.main]]
+            name = "Sobre"
+            weight = 1
+            url = "about/"
+
+            [[languages.pt-br.menu.main]]
+            name = "Blog"
+            weight = 2
+            url = "posts/"
+
+            [[languages.pt-br.menu.main]]
+            name = "Projetos"
+            weight = 3
+            url = "projects/"
+
+            [[languages.pt-br.menu.main]]
+            name = "Contato"
+            weight = 5
+            url = "contact/"
