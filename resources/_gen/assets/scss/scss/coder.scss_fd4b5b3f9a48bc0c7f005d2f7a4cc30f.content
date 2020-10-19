@@ -106,7 +106,7 @@ pre {
 code {
   font-family: Monaco, "Source Code Pro", "Lucida Console", monospace;
   font-size: 1.4rem;
-  font-weight: 400;
+  font-weight: 500;
   background-color: #E0E0E0;
   color: #212121; }
 

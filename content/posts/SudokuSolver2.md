@@ -132,8 +132,27 @@ In each of the above conditions, the terms to trigger victory remain the same, e
 
 The exit condition are triggered once , we have solved our puzzle or click the quit button and once this condition is triggered, we exit the main rootloop by calling the interrupt.
 
+Our puzzle board will now look like this.
+
+```Python
+[
+[2, 1, 0, 0, 0, 0, 4, 0, 0],
+[3, 8, 0, 4, 0, 0, 7, 0, 2],
+[0, 0, 0, 7, 2, 0, 0, 0, 0],
+[0, 2, 4, 8, 0, 6, 9, 0, 0],
+[0, 0, 0, 0, 0, 0, 0, 0, 0],
+[0, 0, 1, 2, 0, 3, 5, 4, 0],
+[0, 0, 0, 0, 5, 8, 0, 0, 0],
+[9, 0, 3, 0, 0, 4, 0, 2, 8],
+[0, 0, 8, 0, 0, 0, 0, 5, 7]
+]
+```
+
+This is a very raw text form of the data but forms the "database" for the project.
+
 
 ### Next Steps
-That wraps up our game logic. We have the win conditions, start game and 
+That wraps up our game logic. We have the win conditions, start game and finish game, and our board is tested for various conditions so we can move onto creating the Game AI and a Game Generator.
+
 
 In the next post, we'll solve the tougher challenges of making a Game Solver and a Game Generator.
