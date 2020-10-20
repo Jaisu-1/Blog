@@ -16,7 +16,9 @@ series = ["Sudoku Solver"]
 
 With the Game and it's logic properly set, we can now move on to creating a Game Solver "AI". In this case, our AI will be a simple optimizing algorithm. One of the reasons, I created this project is to teach myself how to make Game AI, later on involving Deep Learning but a good way to develop intuition is to solve a small scale problem such as here. The AI will try to solve any given Sudoku Board in the least time possible. The problem statement can safely assume that the sudoku board given will be valid and solvable, as they will be tested to be so, from the previous class methods.The first step to solving any problem is to come up with a naive, brute-force approach and we shall do the same here.
 
-![Possible Solutions](/Sudoku-Resources/possiblesolves.png)
+<div align="center">
+    <img src="/Sudoku-Resources/possiblesolves.png" alt="Solving" width=70%>
+</div>
 
 ### Naive Approach
 
@@ -88,11 +90,9 @@ Now that we have 2 of our helper methods ready, we can begin solving the sudoku 
 
 Visually we can think of the algorithm as the following
 
-<p>
-Hello
-</p>
-
-![Sudoku Animation](/Sudoku-Resources/solving.gif)
+<div align="center">
+    <img src="/Sudoku-Resources/solving.gif" alt="Solving">
+</div>
 
 Our code is very simple for the algorithm -
 
@@ -219,35 +219,10 @@ def generate(level):
         if s[2] != 'Medium':
             return generate(level)
         return convertToArray(s[0])
-    if level == 'Hard':
-        p = perfectSudoku()
-        s = puzzleGen(p)
-        while s[2] == 'Easy':
-            n += 1
-            s = puzzleGen(p)
-            if n > 50:
-                return generate(level)
-        while s[2] == 'Medium':
-            n += 1
-            s = puzzleGen(p)
-            if n > 50:
-                return generate(level)
-        if s[2] != 'Hard':
-            return generate(level)
-        t2 = time.time()
-        t3 = t2 - t1
-        return convertToArray(s[0])
-    if level == 'Insane':
-        p = perfectSudoku()
-        s = puzzleGen(p)
-        while s[2] != 'Insane':
-            n += 1
-            s = puzzleGen(p)
-            if n > 50:
-                return generate(level)
-        return convertToArray(s[0])
+    ...
     else:
         raise(ValueError)
 ```
 
+### Next Steps
 With the ability to solve and generate Sudoku Boards at ease, all that's left to do is to create a Graphical User Interface for Native OS using Tkinter and that should wrap up our application. See you there!

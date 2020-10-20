@@ -12,11 +12,13 @@ categories = [
 series = ["Sudoku Solver"]
 +++
 
-### Sudoku Game
+## Sudoku Game
 
 Sudoku is a logic-based, combinatorial number-placement puzzle. In classic sudoku, the objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 subgrids that compose the grid [also called "boxes", "blocks", or "regions"] contain all of the digits from 1 to 9. The puzzle setter provides a partially completed grid, which for a well-posed puzzle has a single solution.
 
-[Gif]
+<div align="center">
+    <img src="/Sudoku-Resources/solve-clear.gif" alt="Solving">
+</div>
 
 ### Why Sudoku?
 
@@ -30,9 +32,9 @@ I also do want to write good Scalable and deployment quality software and think 
 
 ### Prerequisites
 
-OOP concepts [link] to oop concepts.
+[OOP concepts](https://realpython.com/python3-object-oriented-programming/) are an extremely important concept to understand for anyone who wants to build scalable systems and games and have to be understood to write production quality code.
 
-Tkinter is the library that I shall be using to create the game and it's the only framework you'll need to know outside of native python itself. (Tkinter is a part of python so no external installments required).
+[Tkinter](https://docs.python.org/3/library/tkinter.html) is the library that I shall be using to create the game and it's the only framework you'll need to know outside of native python itself. (Tkinter is a part of python so no external installments required).
 
 Tkinter is a GUI library for Python that enables developers to write GUI Applications for Windows, Linux and Mac OSX using nothing but Python. Tkinter, like other similar GUI applications creates a master frame to which one can tie Buttons, widgets, windows and events to create a visual software.
 
@@ -98,7 +100,9 @@ root.mainloop() specifically, is a method on the main window which we execute wh
 
 These 5 simple concepts will allow us to build a complex GUI application that looks like this.
 
-![Image of Final GUI app](Main.jpg)
+<div align="center">
+    <img src="/Sudoku-Resources/GUI.png" alt="Solving">
+</div>
 
 ## Game Structure
 
@@ -180,4 +184,4 @@ class SudokuError(Exception):
 
 This forms a solid foundation for us to build the Game Logic and the AI later on, which will see in Part-2.
 
-Next Up :- Building the Game Logic and the Script for Back-End.
+[Next Up](/posts/build-a-sudoku-solver-part-2/) :- Building the Game Logic and the Script for Back-End.

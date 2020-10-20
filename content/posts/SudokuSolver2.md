@@ -16,8 +16,11 @@ series = ["Sudoku Solver"]
 
 Having built our basic board structure, we can create and implement the game logic on top of the existing data structure that is our board.
 Despite no apparent need for putting the Game Logic in a class, I shall do so to make sure I'm writing clean OOP code. This will enable us to import the methods neatly later on , makes the code readable and ensures structural integrity even in a place where it's not necessary.
-
-![Game Logic](/Sudoku-Resources/gamelogic.jpg)
+<br>
+<center>
+    <img src="/Sudoku-Resources/gamelogic.jpg" alt="gamelogic">
+</center>
+<br>
 
 Our Game Logic , will have properties that are present in any Game, which are -
   1. Starting the Game
@@ -63,7 +66,11 @@ class SudokuGame(object):
 
 To solve the puzzle, you need to fill in the blank squares with numbers ranging from 1 to 9. The catch is that each square must contain a value that is unique to that row, column, and box.
 
-![Solved](/Sudoku-Resources/sudoku-solved.jpg)
+<br>
+<center>
+    <img src="/Sudoku-Resources/sudoku-solved.jpg" alt="solved">
+</center>
+<br>
 
 #### Check Win
 
@@ -155,4 +162,4 @@ This is a very raw text form of the data but forms the "database" for the projec
 That wraps up our game logic. We have the win conditions, start game and finish game, and our board is tested for various conditions so we can move onto creating the Game AI and a Game Generator.
 
 
-In the next post, we'll solve the tougher challenges of making a Game Solver and a Game Generator.
+In the [next](/posts/build-a-sudoku-solver-part-3/) post, we'll solve the tougher challenges of making a Game Solver and a Game Generator.

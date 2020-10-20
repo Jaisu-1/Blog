@@ -1,5 +1,5 @@
 +++
-title = "Projects"
+title = "Portfolio"
 slug = "projects"
 +++
 
@@ -10,19 +10,51 @@ slug = "projects"
 #example1 {
   border: 1px solid;
   padding: 10px;
-  box-shadow: 5px 10px 8px #888888;
+  box-shadow: 5px 10px 18px #888888;
+  background-size: cover;
+  font-size: 20px;
 }
 
 #example2 {
   border: 1px solid;
   padding: 10px;
-  box-shadow: 5px 10px 18px #888888;
+  box-shadow: 5px 10px 18px #4CAF50;
+  background-size: cover;
+  font-size: 20px;
 }
 
 #example3 {
   border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px 18px red;
+  background-size: cover;
+  font-size: 20px;
+}
+
+#four{
+  border: 1px solid;
+  box-shadow: 5px 10px 18px cadetblue;
+  background-size: contain;
+}
+
+#five{
+  border: 1px solid;
+  box-shadow: 5px 10px 18px orange;
+  background-size: contain;
+}
+
+.projects{
+  font-weight: none !important;
+  color: white !important;
+  text-decoration: none !important;
+  &:focus,
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+div{
+  height: 100px;
 }
 
 div.card {
@@ -41,37 +73,69 @@ div.header {
 div.container {
   padding: 10px;
 }
+
+.zoom:hover {
+  transition: transform .5s; /* Animation */
+  transform: scale(1.06); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 </style>
+<script>
+
+function getRandomColor() {
+  var letters = '0123456789ABCDEF';
+  var color = '#';
+  for (var i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
+
+console.log(getRandomColor())
+
+
+</script>
 </head>
 <body>
 
-  <h2>Cards</h2>
 
-  <p>The box-shadow property can be used to create paper-like cards:</p>
+<h2>Sudoku Solver</h2>
 
-  <div class="card">
-    <div class="header">
-      <h1>1</h1>
-    </div>
+<a style="display:block" href="https://github.com/Jaisu-1/Sudoku-Solver" class="projects">
+<div class="zoom" id="example1" style="background-image:url(/Sudoku-Resources/gamelogic.jpg)">
+  <p><center>-</center></p>
+</div>
+</a>
 
-    <div class="container">
-      <p>January 1, 2016</p>
-    </div>
+<h2>Grocerrs</h2>
+
+<a style="display:block" href="https://github.com/Jaisu-1/Grocerrs" class="projects">
+<div class="zoom" id="example2" style="background-image:url(/images/grocerrs2.png);">
+  <p><center>-</center></p>
+</div>
+</a>
+
+<h2>Dummy Library</h2>
+
+<a style="display:block" href="https://github.com/Jaisu-1/Dummy-Library" class="projects">
+<div class="zoom" id="example3" style="background-image:url(/images/dlib2.png);">
+  <p><center>-</center></p>
+</div>
+</a>
+
+<h2>Seq-Seq Translation using Neural Machine Translation</h2>
+<a style="display:block" href="https://github.com/Jaisu-1/Seq2Seq-Notebooks" class="projects">
+  <div class="zoom" id="four" style="background-image:url(/images/sq-sq.jpeg);">
+    <p><center>-</center></p>
   </div>
-<h2>box-shadow: 5px 10px 8px #888888:</h2>
-<div id="example1">
-  <p>The optional third value adds a blur effect to the shadow.</p>
-</div>
+</a>
 
-<h2>box-shadow: 5px 10px 18px #888888:</h2>
-<div id="example2">
-  <p>More blurred.</p>
-</div>
 
-<h2>box-shadow: 5px 10px 18px red:</h2>
-<div id="example3">
-  <p>More blurred and red.</p>
-</div>
+<h2>ResNet-50s or Improved Convolutional Networks.</h2>
+<a style="display:block" href="https://github.com/Jaisu-1/Jaisu-DB" class="projects">
+  <div class="zoom" id="five" style="background-image:url(/images/resnet.png);">
+    <p><center>-</center></p>
+  </div>
+</a>
 
 </body>
 </html>

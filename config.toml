@@ -1,5 +1,5 @@
 baseurl = "http://www.example.com"
-title = "Jaisu's Log Book"
+title = "Jaisu's Blog"
 
 theme = "hugo-coder"
 
@@ -13,14 +13,14 @@ pygmentsCodeFences=true
 PygmentsStyle = "github"
 # pygmentscodefencesguesssyntax = true
 
-disqusShortname = "yourdiscussshortname"
+#disqusShortname = "yourdiscussshortname"
 
 [params]
     author = "Jaisurya Nanduri"
     description = "Jaisurya Nanduri's personal website"
     keywords = "blog,developer,personal"
     info = "Full Stack and Deep Learning"
-    avatarurl = "images/avatar.jpg"
+    avatarurl = "images/avatar3.jpg"
     #gravatar = "john.doe@example.com"
     footercontent = ""
 
@@ -29,7 +29,7 @@ disqusShortname = "yourdiscussshortname"
     hideFooter = false
     hideCredits = false
     hideCopyright = false
-    since = 2019
+    since = 2020
 
     # Git Commit in Footer, uncomment the line below to enable it.
     commit = "https://github.com/luizdepra/hugo-coder/tree/"
@@ -81,10 +81,10 @@ disqusShortname = "yourdiscussshortname"
     weight = 1
     url = "https://github.com/jaisu-1/"
 [[params.social]]
-    name = "Twitter"
-    icon = "fa fa-twitter"
+    name = "Mail"
+    icon = "fa fa-envelope"
     weight = 3
-    url = "https://twitter.com/Jaisu_1/"
+    url = "mailto:jaisunanduri1@gmail.com"
 [[params.social]]
     name = "LinkedIn"
     icon = "fa fa-linkedin"
@@ -96,6 +96,10 @@ disqusShortname = "yourdiscussshortname"
 #     weight = 5
 #     url = "https://medium.com/@johndoe"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [languages]
     [languages.en]
@@ -104,7 +108,7 @@ disqusShortname = "yourdiscussshortname"
         [languages.en.menu]
 
             [[languages.en.menu.main]]
-            name = "About"
+            name = "About Me/ Contact"
             weight = 1
             url = "about/"
 
@@ -119,10 +123,10 @@ disqusShortname = "yourdiscussshortname"
             url = "projects/"
 
 
-            [[languages.en.menu.main]]
-            name = "Contact me"
-            weight = 4
-            url = "contact/"
+            #[[languages.en.menu.main]]
+            #name = "Contact me"
+            #weight = 4
+            #url = "contact/"
 
     #
     # [languages.pt-br]
