@@ -100,6 +100,7 @@ PygmentsStyle = "github"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+      
 
 [languages]
     [languages.en]
