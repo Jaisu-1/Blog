@@ -1,4 +1,4 @@
-baseurl = "http://www.example.com"
+baseurl = "https://Jaisu-1.github.io/"
 title = "Jaisu's Blog"
 
 theme = "hugo-coder"
@@ -100,7 +100,7 @@ PygmentsStyle = "github"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-      
+
 
 [languages]
     [languages.en]
@@ -125,9 +125,9 @@ PygmentsStyle = "github"
 
 
             #[[languages.en.menu.main]]
-            #name = "Contact me"
+            #name = "Resume"
             #weight = 4
-            #url = "contact/"
+            #url = "resume.html"
 
     #
     # [languages.pt-br]
