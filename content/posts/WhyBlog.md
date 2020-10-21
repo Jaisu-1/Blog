@@ -29,4 +29,4 @@ I firmly believe the best way to learn something is to teach it to someone. Base
 
 I want to get over my shyness. I think marketing is very important, being able to sell your craft is probably as important as honing your craft itself. I've held back on posting anything publicly due to a fear of derision and have perhaps allowed that to take over what I needed to do, far too many times. I think by blogging publicly, I am making an effort to overcome the inertia and to finally just getting over it. 
 
-##### Given all these reasons, I shall blog. Thanks for reading!.
+##### Given all these reasons, I shall blog. Thanks for reading!
