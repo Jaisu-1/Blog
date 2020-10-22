@@ -27,8 +27,8 @@ PygmentsStyle = "github"
     dateformat = "January 2, 2006"
 
     hideFooter = true
-    hideCredits = false
-    hideCopyright = false
+    hideCredits = true
+    hideCopyright = true
     since = 2020
 
     # Git Commit in Footer, uncomment the line below to enable it.
