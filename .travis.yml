@@ -1,14 +1,6 @@
-language: go
-
-go:
-  - master # This uses automatically the latest version of go
-
-# Install hugo extended using snaps
-addons:
-snaps:
-- name: hugo
-  channel: extended/stable # will be passed to --channel flag
-
+install:
+  - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.55.4/hugo_0.55.4_Linux-64bit.deb
+  - sudo dpkg -i hugo_0.55.4_Linux-64bit.deb
 script:
   - hugo # This commands builds your website on travis
 
