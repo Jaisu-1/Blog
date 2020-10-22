@@ -2,10 +2,10 @@
 	path = themes/hugo-coder
 	url = https://github.com/luizdepra/hugo-coder.git
 
-[submodule "Blog"] 
-  path = Blog
-  url = git://github.com/Jaisu-1/Jaisu-1.github.io.git
-
 [submodule "public"] 
   path = public
+  url = git://github.com/Jaisu-1/Jaisu-1.github.io.git
+
+[submodule "Blog"] 
+  path = Blog
   url = git://github.com/Jaisu-1/Jaisu-1.github.io.git

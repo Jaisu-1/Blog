@@ -26,7 +26,7 @@ PygmentsStyle = "github"
 
     dateformat = "January 2, 2006"
 
-    hideFooter = True
+    hideFooter = true
     hideCredits = false
     hideCopyright = false
     since = 2020
