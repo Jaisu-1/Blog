@@ -124,10 +124,10 @@ PygmentsStyle = "github"
             url = "projects/"
 
 
-            #[[languages.en.menu.main]]
-            #name = "Resume"
-            #weight = 4
-            #url = "resume.html"
+            [[languages.en.menu.main]]
+            name = "Resume"
+            weight = 4
+            url = "resume.html"
 
     #
     # [languages.pt-br]
