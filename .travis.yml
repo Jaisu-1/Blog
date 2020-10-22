@@ -3,8 +3,11 @@ language: go
 go:
   - master # This uses automatically the latest version of go
 
-install:
-  - go get github.com/gohugoio/hugo # This provides the latest version of Hugo to Travis CI
+# Install hugo extended using snaps
+addons:
+snaps:
+- name: hugo
+  channel: extended/stable # will be passed to --channel flag
 
 script:
   - hugo # This commands builds your website on travis
