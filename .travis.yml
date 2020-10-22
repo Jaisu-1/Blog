@@ -4,8 +4,7 @@ go:
   - master # This uses automatically the latest version of go
 
 install:
-  - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.55.4/hugo_0.55.4_Linux-64bit.deb
-  - sudo dpkg -i hugo_0.55.4_Linux-64bit.deb- go get github.com/spf13/hugo # This provides the latest version of Hugo to Travis CI
+  - go get https://github.com/gohugoio/hugo # This provides the latest version of Hugo to Travis CI
 
 script:
   - hugo # This commands builds your website on travis
@@ -18,6 +17,6 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_TOKEN # This is the authentication which you will setup in the next step in travis-ci dashboard
   email: jaisunanduri1@gmail.com
-  name: "Jaisu-1"
+  name: "Your username"
   on:
     branch: master
