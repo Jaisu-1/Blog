@@ -223,6 +223,3 @@ def generate(level):
     else:
         raise(ValueError)
 ```
-
-### Next Steps
-With the ability to solve and generate Sudoku Boards at ease, all that's left to do is to create a Graphical User Interface for Native OS using Tkinter and that should wrap up our application. See you there!
