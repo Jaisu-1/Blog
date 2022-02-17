@@ -3,7 +3,7 @@ title = "About Me"
 slug = "about"
 +++
 
-Hi! I am Jaisurya Nanduri. I work at AWS Science as part of the Automated Reasoning Group and I like crafting software, typically in the Full Stack and Deep Learning side of things. I have experience building Chatbots using NLP , Automating Factory processes with Computer Vision and working on Full Stack Development for huge websites. In my free time, I like reading, learning about random nerdy things and cooking.
+Hi! I am Jaisurya Nanduri. I work at AWS Science as part of the Automated Reasoning Group and I like crafting software. I have experience building Modern Compilers, Chatbots using NLP , Automating Factory processes with Computer Vision and working on Full Stack Development for large scale websites. In my free time, I like reading, learning about random nerdy things and cooking.
 
 <!-- <br><br>
 <center><img src="/images/avatar.jpg" alt="me" class="me" style="border-radius:100%;width:250px"></center>
